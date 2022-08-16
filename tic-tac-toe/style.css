@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-auto-rows: 250px;
+    gap:10px;
+    margin: auto;
+    position: relative;
+    width: 920px;
+    margin-top: 25px;
+}
+
+.cell{
+    background-color:#3525ec;
+}
+
+.symbol {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.banner {
+    position: absolute;
+    background-color: red;
+    width: 1000px;
+    margin-left: -140px;
+    height: 300px;
+    margin-top: 250px;
+    opacity: 82%;
+}
+
+.banner h1 {
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    font-size: 60px;;
+}
